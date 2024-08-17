@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
-        "vim"
+        "vim",
+        "null_ls"
     ],
     "diagnostics.disable": [
         "duplicate-index"
