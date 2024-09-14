@@ -1,3 +1,4 @@
+-- used for adding auto-completion from source like lsp snippet buffer 
 return {
 	{
 		"L3MON4D3/LuaSnip",

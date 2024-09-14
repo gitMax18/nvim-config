@@ -1,3 +1,4 @@
+-- used to open a finder
 return {
 	{
 		"nvim-telescope/telescope.nvim",

@@ -1,3 +1,4 @@
+-- used to manage terminal
 return {
   "akinsho/toggleterm.nvim",
   version = "*",
@@ -8,9 +9,9 @@ return {
       -- Map <esc> to exit terminal mode
       vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], opts)
       -- Map 'jk' to exit terminal mode (useful for typing quickly)
-      vim.keymap.set("t", "jk", [[<C-\><C-n>]], opts)
+      -- vim.keymap.set("t", "jk", [[<C-\><C-n>]], opts)
       vim.keymap.set("t", "<C-h>", [[<Cmd>wincmd h<CR>]], opts)
-      vim.keymap.set("t", "<C-j>", [[<C-w>j]], opts)
+      vim.keymap.set("t", "<C-j>", [[<Cmd>wincmd j<CR>]], opts)
       vim.keymap.set("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opts)
       vim.keymap.set("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opts)
     end

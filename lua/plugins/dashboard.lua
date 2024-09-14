@@ -1,3 +1,4 @@
+-- used for adding dashbord at startup nvim 
 return {
   "nvimdev/dashboard-nvim",
   event = "VimEnter",

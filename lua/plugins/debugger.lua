@@ -1,3 +1,4 @@
+-- used to add and configure debugger
 return {
   {
     "rcarriga/nvim-dap-ui",

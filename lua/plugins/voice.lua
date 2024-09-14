@@ -1,3 +1,4 @@
+-- used to add ui for message, cmdline with popup menu
 return -- lazy.nvim
 {
 	"folke/noice.nvim",

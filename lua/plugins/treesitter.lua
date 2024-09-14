@@ -1,5 +1,6 @@
+-- used to analyse structure of code and add fonctionnality with that, like syntax color etc..
 return {
-  "nvim-treesitter/nvim-treesitter",
+"nvim-treesitter/nvim-treesitter",
   version = false,
   build = ":TSUpdate",
   event = { "VeryLazy" },

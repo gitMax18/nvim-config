@@ -1,3 +1,4 @@
+-- used to open git manager in new terminal
 return {
   "kdheepak/lazygit.nvim",
   cmd = {

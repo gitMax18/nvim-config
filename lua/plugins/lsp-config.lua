@@ -1,3 +1,4 @@
+-- used to add and handle language server protocol
 return {
 	{
 		"williamboman/mason.nvim",
@@ -18,7 +19,7 @@ return {
 		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			local lspconfig = require("lspconfig")
-      local servers = { "lua_ls", "tsserver", "gopls" }
+      local servers = { "lua_ls", "ts_ls", "gopls" }
       -- add capabilities from cmp to server 
       for _, server in ipairs(servers) do
         lspconfig[server].setup({

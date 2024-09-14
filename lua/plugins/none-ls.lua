@@ -1,3 +1,4 @@
+-- used to add external source like formating, linting, diagnostic (used by lsp) 
 return {
 	"nvimtools/none-ls.nvim",
   dependencies = {

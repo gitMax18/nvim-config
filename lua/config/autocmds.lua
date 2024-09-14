@@ -1,0 +1,1 @@
+-- this file is used to add autocmds, autocmd alow use to add custom actions to events

@@ -1,3 +1,4 @@
+-- used for adding comment 
 return {
   'numToStr/Comment.nvim',
   config = function ()
